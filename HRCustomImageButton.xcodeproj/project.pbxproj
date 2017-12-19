@@ -13,6 +13,9 @@
 		425FBD421FE89A7000EFB5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425FBD411FE89A7000EFB5BB /* Assets.xcassets */; };
 		425FBD451FE89A7000EFB5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425FBD431FE89A7000EFB5BB /* LaunchScreen.storyboard */; };
 		425FBD481FE89A7000EFB5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425FBD471FE89A7000EFB5BB /* main.m */; };
+		425FBD501FE89ABF00EFB5BB /* HRCustomImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 425FBD4F1FE89ABF00EFB5BB /* HRCustomImageButton.m */; };
+		425FBD531FE8A4A800EFB5BB /* telephone_yes@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425FBD511FE8A4A700EFB5BB /* telephone_yes@3x.png */; };
+		425FBD541FE8A4A800EFB5BB /* telephone_no@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425FBD521FE8A4A700EFB5BB /* telephone_no@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		425FBD441FE89A7000EFB5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		425FBD461FE89A7000EFB5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425FBD471FE89A7000EFB5BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425FBD4E1FE89ABF00EFB5BB /* HRCustomImageButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRCustomImageButton.h; sourceTree = "<group>"; };
+		425FBD4F1FE89ABF00EFB5BB /* HRCustomImageButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRCustomImageButton.m; sourceTree = "<group>"; };
+		425FBD511FE8A4A700EFB5BB /* telephone_yes@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telephone_yes@3x.png"; sourceTree = "<group>"; };
+		425FBD521FE8A4A700EFB5BB /* telephone_no@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telephone_no@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,10 @@
 				425FBD391FE89A6F00EFB5BB /* AppDelegate.m */,
 				425FBD3B1FE89A7000EFB5BB /* ViewController.h */,
 				425FBD3C1FE89A7000EFB5BB /* ViewController.m */,
+				425FBD521FE8A4A700EFB5BB /* telephone_no@3x.png */,
+				425FBD511FE8A4A700EFB5BB /* telephone_yes@3x.png */,
+				425FBD4E1FE89ABF00EFB5BB /* HRCustomImageButton.h */,
+				425FBD4F1FE89ABF00EFB5BB /* HRCustomImageButton.m */,
 				425FBD3E1FE89A7000EFB5BB /* Main.storyboard */,
 				425FBD411FE89A7000EFB5BB /* Assets.xcassets */,
 				425FBD431FE89A7000EFB5BB /* LaunchScreen.storyboard */,
@@ -130,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				425FBD451FE89A7000EFB5BB /* LaunchScreen.storyboard in Resources */,
+				425FBD541FE8A4A800EFB5BB /* telephone_no@3x.png in Resources */,
 				425FBD421FE89A7000EFB5BB /* Assets.xcassets in Resources */,
+				425FBD531FE8A4A800EFB5BB /* telephone_yes@3x.png in Resources */,
 				425FBD401FE89A7000EFB5BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425FBD501FE89ABF00EFB5BB /* HRCustomImageButton.m in Sources */,
 				425FBD3D1FE89A7000EFB5BB /* ViewController.m in Sources */,
 				425FBD481FE89A7000EFB5BB /* main.m in Sources */,
 				425FBD3A1FE89A6F00EFB5BB /* AppDelegate.m in Sources */,
